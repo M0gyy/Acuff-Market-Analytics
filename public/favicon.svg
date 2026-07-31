@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#2e1065" />
+    </linearGradient>
+    <linearGradient id="aGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#f3e8ff" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#bgGrad)" />
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="none" stroke="#7e22ce" stroke-width="1.5" stroke-opacity="0.6" />
+  <!-- Letter A with stylized financial upward apex -->
+  <path d="M 32 10 L 48 52 L 39.5 52 L 33.5 35 L 22.5 35 L 19.5 44 L 12.5 44 Z" fill="url(#aGrad)" />
+  <!-- Accent crossbar -->
+  <polygon points="21,38 41,38 43.5,43 18.5,43" fill="#c084fc" />
+  <circle cx="32" cy="18" r="2.5" fill="#ffffff" />
+</svg>
